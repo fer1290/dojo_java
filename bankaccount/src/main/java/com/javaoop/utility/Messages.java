@@ -1,23 +1,27 @@
-package src.main.java.com.javaoopadv.bankaccount;
+package src.main.java.com.javaoop.utility;
 
 public class Messages {
-    public void welcome(){
+    public void welcome() {
         System.out.println("Welcome");
     }
-    public void prntAccountTypes(){
+
+    public void prntAccountTypes() {
         System.out.println("**********");
         System.out.println("Account Types:");
         System.out.println("1: Current Account");
         System.out.println("2: Savings Account");
         System.out.println("**********");
     }
-    public void amountIncorrect(){
+
+    public void amountIncorrect() {
         System.out.println("Incorrect amount");
     }
-    public void accountTypeInvalid(){
+
+    public void accountTypeInvalid() {
         System.out.println("Account Type invalid");
     }
-    public void insufficientAmount(){
+
+    public void insufficientAmount() {
         System.out.println("Insufficient amount");
     }
 }

@@ -1,6 +1,8 @@
-package src.main.java.com.javaoopadv.bankaccount;
+package src.main.java.com.javaoop.bankaccount;
 
 import java.util.concurrent.ThreadLocalRandom;
+
+import src.main.java.com.javaoop.utility.Messages;
 
 public class BankAccount {
     private final String accountNumber;
